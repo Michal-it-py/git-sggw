@@ -1,5 +1,2 @@
-import time
+#tu bedz appka we Flasku
 
-print(time.time())
-
-print("Test")
