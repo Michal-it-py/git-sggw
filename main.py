@@ -6,8 +6,23 @@
 #git log
 #git checkout main - zmiana brancha na main; pozniej git pull
 #git status - sprawdzamy gdzie jetesmy, co sie dzieje 
-#git add
+#git add ; . kropka dodaje wszystkie untracked files do add
 #git commit -m "wiadmosc"
 
+#-m feat - feature
+#-m major - duza zmiana
+#-m fix - 
 
-print("repo")
+#git push origin main 
+#git checkout -b <nazwa>  =(nowa gałąź)
+
+
+from flask import Flask
+
+app = Flask(__name__)
+
+if __name__ =="__main__":
+    app.run(port = 8080)
+
+
+
